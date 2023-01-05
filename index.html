@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosaur King</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="header__logo-container">
+            <figure>
+                <img src="./css/assets/imgs/logo.png" alt="">
+            </figure>
+        </div>
+        <nav class="header__navbar">
+            <ul>
+                <li>
+                    <a href="">Explore</a>
+                </li>
+                <li>
+                    <a href="#attributes">Attributes</a>
+                </li>
+                <li>
+                    <a href="#dinosaurs">Dinosaurs</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main__presentation-section">
+            <img src="./css/assets/imgs/gifs/battle.gif" alt="">
+            <div>
+                <p>Dinosaur King (<strong>古代王者恐竜キング</strong>) is an anime series and card game created by Sega in collaboration with Sunrise that uses super-powerful dinosaurs with abilities of six elements: Fire, Water, Electricity, Earth, Grass and Air. <br>
+                <br> There are different cards to collect and use in order to play Dinosaur King. The barcodes are located on the long edges of the cards for the player to scan them in the machine. There are four types of cards used in this game; Dinosaur, move, character and super move cards.</p>
+            </div>
+        </section>
+        <section class="main__info-section" id="attributes">
+            <p>ATTRIBUTES</p>
+            <div class="elements-cards-container">
+                <article class="element-card">
+                    <div>
+                        <span class="fire icon-card"></span>
+                        <p class="card-title fire-title">FIRE DINOSAURS</p>
+                    </div>
+                    <p class="card-info">Fire Dinosaurs are the tyrannosaurids and carcharodontosaurids, as well as the largest, strongest members of numerous theropod families, many times from the same ones that have many Wind Dinosaurs (Abelisauridae, Megalosauridae, Metriacanthosauridae, and Allosauridae). They are resistant against Wind Moves, but are weak to Water Moves, and their Move Cards are strongest against Wind Dinosaurs and weakest against Water Dinosaurs. In the anime, Fire Dinosaur cards can be activated by any source of fire, flames, or sparks</p>
+                </article>
+                <article class="element-card">
+                    <div>
+                        <span class="water icon-card"></span>
+                        <p class="card-title water-title">WATER DINOSAURS</p>
+                    </div>
+                    <p class="card-info">Water Dinosaurs are an unusual group, including both the sauropods (all groups: Cetiosauridae, Diplodocoidea, Titanosauria, et al.) and the spinosaurid theropods. They are resistant against Fire Moves, but weak against Lightning Moves, and Water Moves are strongest against Fire Dinosaurs and weakest against Lightning Dinosaurs. Water Dinosaur cards in the anime can be activated by any source of water or any liquid containing water.</p>
+                </article>
+                <article class="element-card">
+                    <div>
+                        <span class="lightning icon-card"></span>
+                        <p class="card-title lightning-title">LIGHTNING DINOSAURS</p>
+                    </div>
+                    <p class="card-info">Lightning Dinosaurs are mainly from the ceratopsid family, but can be from any branch of Ceratopsia; a website Dino Holder game also featured Pachycephalosaurus as a Lightning Dinosaur, implying all of Marginocephalia have the Element. They are resistant against Water Moves but weak against Earth Moves, and their Move Cards are strongest against Water Dinosaurs and weakest against Earth Dinosaurs. In the anime, Lightning Dinosaur cards can be activated by lightning bolts, sparks, or any other form of electricity.</p>
+                </article>
+                <article class="element-card">
+                    <div>
+                        <span class="grass icon-card"></span>
+                        <p class="card-title grass-title">GRASS DINOSAURS</p>
+                    </div>
+                    <p class="card-info">Grass Dinosaurs are from the ornithopod group, mainly the hadrosaurids and iguanodonts. These dinosaurs are resistant against Earth Moves, but are weak against Wind Moves, and their Moves are strongest against Earth Dinosaurs and weakest against Wind Dinosaurs. Their cards are activated in the anime by contact with any source of plantlife.</p>
+                </article> 
+            </div>
+        </section>
+        <section class="main__selling-section" id="dinosaurs">
+            <div class="title-container">
+                <h2>AVAILABLE DINOSAURS</h2>
+                <div>
+                    <ul>
+                        <li>
+                            <button class="button1" id="fire-button">FIRE</button>
+                        </li>
+                        <li>
+                            <button class="button2" id="water-button">WATER</button>
+                        </li>
+                        <li>
+                            <button class="button3" id="lightning-button">LIGHTNING</button>
+                        </li>
+                        <li>
+                            <button class="button4" id="grass-button">GRASS</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p>Choose your own dinosaur friend to be accompanied by through the epic battles!</p>
+                <section class="dino-cards-slider dino-cards-slider-fire" id="fire-slider">
+                    <article class="dino-card">
+                        <h3 class="dino-name fire">TERRY</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/tyrannosaurus.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag fire">$</span>
+                                    <p>299</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Tyrannosaurus rex</li>
+                                    <li><span>Meaning:</span> Tyrant Lizard</li>
+                                    <li><span>Diet:</span> Carnivore</li>
+                                    <li><span>Length:</span> 15 meters</li>
+                                    <li><span>Period:</span> Late Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name fire">SAUROPHAGANAX</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/saurophaganax.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag fire">$</span>
+                                    <p>199</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Saurophaganax maximus</li>
+                                    <li><span>Meaning:</span> King of the Lizard Eaters</li>
+                                    <li><span>Diet:</span> Carnivore</li>
+                                    <li><span>Length:</span> 12.5-13 meters</li>
+                                    <li><span>Period:</span> Late Jurassic</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name fire">CARCHARODONTO</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/carcharodonto.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag fire">$</span>
+                                    <p>179</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Carcharodontosaurus saharicus</li>
+                                    <li><span>Meaning:</span> Shark-Toothed Lizard</li>
+                                    <li><span>Diet:</span> Carnivore</li>
+                                    <li><span>Length:</span> 12-13.3 meters</li>
+                                    <li><span>Period:</span> Middle/Late Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name fire">TORVOSAURUS</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/torvosaurus.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag fire">$</span>
+                                    <p>179</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Torvosaurus tanneri</li>
+                                    <li><span>Meaning:</span> Savage Lizard</li>
+                                    <li><span>Diet:</span> Carnivore</li>
+                                    <li><span>Length:</span> 10-17.4 meters meters</li>
+                                    <li><span>Period:</span> Late Jurassic</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <section class="dino-cards-slider dino-cards-slider-water" id="water-slider">
+                    <article class="dino-card">
+                        <h3 class="dino-name water">SPINY</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/spinosaurus.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag water">$</span>
+                                    <p>299</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Spinosaurus aegyptiacus</li>
+                                    <li><span>Meaning:</span> Spiny Lizard</li>
+                                    <li><span>Diet:</span> Carnivore/Piscivore</li>
+                                    <li><span>Length:</span> 15 meters</li>
+                                    <li><span>Period:</span> Late Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name water">AMPELOSAURUS</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/ampelosaurus.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag water">$</span>
+                                    <p>199</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Ampelosaurus atacis
+                                    </li>
+                                    <li><span>Meaning:</span> Vine Lizard</li>
+                                    <li><span>Diet:</span> Herbivore</li>
+                                    <li><span>Length:</span> 15-16 meters</li>
+                                    <li><span>Period:</span> Late Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name water">BARYONYX</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/baryonyx.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag water">$</span>
+                                    <p>179</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Baryonyx walkeri</li>
+                                    <li><span>Meaning:</span> Heavy Claw</li>
+                                    <li><span>Diet:</span> Carnivore/Piscivore</li>
+                                    <li><span>Length:</span> 7.5-10 meters</li>
+                                    <li><span>Period:</span> Early Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name water">SALTASAURUS</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/saltasaurus.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag water">$</span>
+                                    <p>179</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Saltasaurus loricatus</li>
+                                    <li><span>Meaning:</span> Lizard from Salta</li>
+                                    <li><span>Diet:</span> Herbivore</li>
+                                    <li><span>Length:</span> 12 meters</li>
+                                    <li><span>Period:</span> Late Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <section class="dino-cards-slider dino-cards-slider-lightning" id="lightning-slider">
+                    <article class="dino-card">
+                        <h3 class="dino-name lightning">CHOMP</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/triceratops.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag lightning">$</span>
+                                    <p>299</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Spinosaurus aegyptiacus</li>
+                                    <li><span>Meaning:</span> Spiny Lizard</li>
+                                    <li><span>Diet:</span> Carnivore/Piscivore</li>
+                                    <li><span>Length:</span> 15 meters</li>
+                                    <li><span>Period:</span> Late Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name lightning">STYRACOSAURUS</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/styracosaurus.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag lightning">$</span>
+                                    <p>199</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Ampelosaurus atacis
+                                    </li>
+                                    <li><span>Meaning:</span> Vine Lizard</li>
+                                    <li><span>Diet:</span> Herbivore</li>
+                                    <li><span>Length:</span> 15-16 meters</li>
+                                    <li><span>Period:</span> Late Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name lightning">PENTACERATOPS</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/pentaceratops.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag lightning">$</span>
+                                    <p>179</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Baryonyx walkeri</li>
+                                    <li><span>Meaning:</span> Heavy Claw</li>
+                                    <li><span>Diet:</span> Carnivore/Piscivore</li>
+                                    <li><span>Length:</span> 7.5-10 meters</li>
+                                    <li><span>Period:</span> Early Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name lightning">TOROSAURUS</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/torosaurus.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag lightning">$</span>
+                                    <p>179</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Torosaurus latus/utahensis</li>
+                                    <li><span>Meaning:</span> Perforated Lizard</li>
+                                    <li><span>Diet:</span> Herbivore</li>
+                                    <li><span>Length:</span> 8-9 meters</li>
+                                    <li><span>Period:</span> Late Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <section class="dino-cards-slider dino-cards-slider-grass" id="grass-slider">
+                    <article class="dino-card">
+                        <h3 class="dino-name grass">PARIS</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/parasaurus.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag grass">$</span>
+                                    <p>299</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Parasaurolophus walkeri</li>
+                                    <li><span>Meaning:</span> Near Crested Lizard</li>
+                                    <li><span>Diet:</span> Herbivore</li>
+                                    <li><span>Length:</span> 10-12 meters</li>
+                                    <li><span>Period:</span> Late Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name grass">IGUANODON</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/iguano.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag grass">$</span>
+                                    <p>199</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Iguanodon bernissartensis</li>
+                                    <li><span>Meaning:</span> Iguana Tooth</li>
+                                    <li><span>Diet:</span> Herbivore</li>
+                                    <li><span>Length:</span> 10-12 meters</li>
+                                    <li><span>Period:</span> Early Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name grass">FUKUISAURUS</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/fukuisaurus.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag grass">$</span>
+                                    <p>179</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Fukuisaurus tetoriensis</li>
+                                    <li><span>Meaning:</span> Lizard from Fukui</li>
+                                    <li><span>Diet:</span> Herbivore</li>
+                                    <li><span>Length:</span> 4.5-4.8 meters</li>
+                                    <li><span>Period:</span> Early Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dino-card">
+                        <h3 class="dino-name grass">MAIASAURA</h3>
+                        <div class="card-body">
+                            <img src="./css/assets/imgs/maiasaura.jpg" alt="">
+                            <div class="info-container">
+                                <div class="price">
+                                    <span class="price-tag grass">$</span>
+                                    <p>179</p>
+                                </div>
+                                <ul>
+                                    <li><span>Species:</span> Maiasaura peeblesorum</li>
+                                    <li><span>Meaning:</span> Good Mother Lizard</li>
+                                    <li><span>Diet:</span> Herbivore</li>
+                                    <li><span>Length:</span> 9-10 meters</li>
+                                    <li><span>Period:</span> Late Cretaceous</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-logo-container">
+            <span></span>
+        </div>
+        <div class="footer-info-container">
+            <ul>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Sign up</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="dino.js"></script>
+</body>
+</html>
